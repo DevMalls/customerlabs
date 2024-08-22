@@ -1,0 +1,88 @@
+.save-segment {
+    height: 100%;
+    width: 100%;
+}
+
+.save-segment> .save-segment-header {
+    height: 80px;
+    width: 100%;
+}
+
+.save-segment> .save-segment-content {
+    background-color: #ffffff;
+    height:calc(100% - 170px);
+    overflow-y: auto;
+    padding:32px 32px 32px 20px;
+    width: 100%;
+}
+
+.save-segment> .save-segment-content> .segment-label {
+    color:#000000e5;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.save-segment> .save-segment-content> .segment-input {
+    margin-top:16px;
+    margin-bottom: 16px;    
+}
+
+.save-segment> .save-segment-content> .segment-input > .segment-input-textbox {
+    border: 2px solid #cec6c6;
+    color: #cec6c6;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.segment-input-textbox::placeholder{
+    color: #cec6c6;
+}
+
+.segment-input-textbox:focus{
+    color: #cec6c6;
+    outline: none;
+}
+
+.save-segment> .save-segment-content> .segment-input-container {
+    padding:20px 32px;
+}
+
+.save-segment> .save-segment-content> .segment-input-container > .add-new-schema-btn  {
+    border-bottom: 2px solid #32cb91cc;
+    color:  #32cb91cc;
+    font-size: 12px;
+    font-weight: 700;
+    width: 110px;
+    margin-top: 20px;
+}
+
+.save-segment> .save-segment-footer {
+    background-color: #ffffffcc;
+    height: 90px;
+    width: 100%;
+    padding: 32px 20px;
+}
+
+.save-segment> .save-segment-footer> .save-btn {
+    background-color: #32cb91cc;
+    border: 0.2px solid #0000000d;
+    box-shadow: -2px 7px 0px 0px rgb(255 255 255 / 16%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 24px;
+    height:auto;
+    padding: 12px 14px;
+    width: auto;
+}
+
+.save-segment> .save-segment-footer> .cancel-btn {
+    background-color: #ffffff;
+    border: none;
+    color: #d5247c;
+    font-size: 14px;
+    font-weight: 700;
+    height:auto;
+    padding: 12px 14px;
+    width: auto;
+}

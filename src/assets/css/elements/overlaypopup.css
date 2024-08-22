@@ -1,0 +1,35 @@
+.popup {
+    bottom: 0;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 99;
+    overflow: hidden;
+    position: absolute;
+
+    align-items: center;
+    animation: fadeIn 0.2s;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup > .window {
+    box-shadow: -3px 0px 6px rgb(0 0 0 / 16%);
+    height: 100%;
+}
+
+.popup >  .window > .content {
+    overflow: auto;
+    height: 100%;
+}
+
+/*-----------------------------------------*/
+
+.save-segment-popup {
+background-color: #0000001a;
+}
+
+.save-segment-popup > .window {
+    width: 400px;
+    height: 100%;
+}

@@ -1,0 +1,13 @@
+.selected-schema {
+    border: 2px solid #66ccff;
+    height: auto;
+    padding: 20px 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.selected-schema > .selected-schema-dropdown {
+    
+}
